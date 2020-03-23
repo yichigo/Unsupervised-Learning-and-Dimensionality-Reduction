@@ -26,28 +26,40 @@ To run the codes, go to the folder ./src/,
 
 #### 1. Gestures Sensor Data Clustering and Dimensionality Reduction
 
-Data preprocessing, run: python gestures_data_preprocessing.py
+Data preprocessing, in terminal, run:
 
-Clustering, open Jupyter Notebook, run: gestures.ipynb
+	python gestures_data_preprocessing.py
+
+Clustering, open Jupyter Notebook, run:
+
+	gestures.ipynb
 
 
 #### 2. Heart Disease Data Clustering and Dimensionality Reduction
 
-Data preprocessing, run: python heart_data_preprocessing.py
+Data preprocessing, in terminal, run:
 
-Clustering, open Jupyter Notebook, run: heart.ipynb
+	python heart_data_preprocessing.py
+
+Clustering, open Jupyter Notebook, run:
+
+	heart.ipynb
 
 
 #### 3. Heart Disease Prediction
 
 ##### 3.1 Original Neural Network
 
-run: python NN.py
+In terminal, run:
+
+	python NN.py
 
 
 ##### 3.2 Neural Network after Dimensionality Reduction ( without Cluster Label )
 
-run: 	python NN.py PCA
+In terminal, run:
+
+		python NN.py PCA
 
 		python NN.py ICA
 
@@ -58,7 +70,9 @@ run: 	python NN.py PCA
 
 ##### 3.2 Neural Network after Dimensionality Reduction ( add Cluster Label )
 
-run: 	python NN.py PCA KMeans
+In terminal, run:
+
+	 	python NN.py PCA KMeans
 
 		python NN.py PCA EM
 
