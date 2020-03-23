@@ -1,10 +1,10 @@
 # Unsupervised Learning and Dimensionality Reduction
 
 
-###  Program Language:
+##  Program Language:
 	python3
 	
-### Packages:
+## Packages:
 	pandas,
 	numpy,
 	matplotlib,
@@ -13,18 +13,18 @@
 	plots.py (to plot roc curve)
 
 
-### Input and Output Path
+## Input and Output Path
 the input data and preprocessed data are saved in ./data/
 
 the output plots are exported to ./plots/
 
 
-### Running
+## Running
 
 To run the codes, go to the folder ./src/,
 
 
-#### 1. Gestures Sensor Data Clustering and Dimensionality Reduction
+### 1. Gestures Sensor Data Clustering and Dimensionality Reduction
 
 Data preprocessing, in terminal, run:
 
@@ -35,7 +35,7 @@ Clustering, open Jupyter Notebook, run:
 	gestures.ipynb
 
 
-#### 2. Heart Disease Data Clustering and Dimensionality Reduction
+### 2. Heart Disease Data Clustering and Dimensionality Reduction
 
 Data preprocessing, in terminal, run:
 
@@ -46,16 +46,16 @@ Clustering, open Jupyter Notebook, run:
 	heart.ipynb
 
 
-#### 3. Heart Disease Prediction
+### 3. Heart Disease Prediction
 
-##### 3.1 Original Neural Network
+#### 3.1 Original Neural Network
 
 In terminal, run:
 
 	python NN.py
 
 
-##### 3.2 Neural Network after Dimensionality Reduction ( without Cluster Label )
+#### 3.2 Neural Network after Dimensionality Reduction ( without Cluster Label )
 
 In terminal, run:
 
@@ -68,7 +68,7 @@ In terminal, run:
 	python NN.py TSNE
 
 
-##### 3.2 Neural Network after Dimensionality Reduction ( add Cluster Label )
+#### 3.2 Neural Network after Dimensionality Reduction ( add Cluster Label )
 
 In terminal, run:
 
