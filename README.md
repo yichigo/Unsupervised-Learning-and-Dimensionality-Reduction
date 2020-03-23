@@ -13,7 +13,7 @@
 	plots.py (to plot roc curve)
 
 
-### input and output
+### Input and Output Path
 the input data and preprocessed data are saved in ./data/
 
 the output plots are exported to ./plots/
@@ -59,32 +59,32 @@ In terminal, run:
 
 In terminal, run:
 
-		python NN.py PCA
+	python NN.py PCA
 
-		python NN.py ICA
+	python NN.py ICA
 
-		python NN.py RP
+	python NN.py RP
 
-		python NN.py TSNE
+	python NN.py TSNE
 
 
 ##### 3.2 Neural Network after Dimensionality Reduction ( add Cluster Label )
 
 In terminal, run:
 
-	 	python NN.py PCA KMeans
+	python NN.py PCA KMeans
 
-		python NN.py PCA EM
+	python NN.py PCA EM
 
-		python NN.py ICA KMeans
+	python NN.py ICA KMeans
 
-		python NN.py ICA EM
+	python NN.py ICA EM
 
-		python NN.py RP KMeans
+	python NN.py RP KMeans
 
-		python NN.py RP EM
+	python NN.py RP EM
 
-		python NN.py TSNE KMeans
+	python NN.py TSNE KMeans
 
-		python NN.py TSNE EM
+	python NN.py TSNE EM
 
